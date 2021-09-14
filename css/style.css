@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "titulo";
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-size: 150%;
+    
+}
+@font-face {
+    font-family: "titulo-num";
+    src: url(../fonts/theboldfont.ttf);
+    font-size: 150%;
+    
+}
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+
+.text-a {
+    text-decoration:none;
+    color: #FFF;
+}
+.text-a2 {
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+}
+/*nav*/
+.titulo {
+    font-family: "titulo";
+    font-size: 48px;
+}
+.nav-color{
+    background-color: orange;
+}
+.text-c{
+    font-family: "titulo-num";
+   
+    font-size: 22px;
+}
+/*efecto entrada*/
+.tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand-fwd-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  /*Btn whast logo*/
+  .whatsapp {
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:40px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:33px;
+    z-index:100;
+  
+  }
+  .whatsapp:hover {
+    color:white;
+  }
+  .whatsapp-icon {
+    margin:auto;
+  }
+/*shadows text*/
+  .text-shadow-drop-center {
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	        animation: text-shadow-drop-center 0.6s both;
+}
+/**
+ * ----------------------------------------
+ * @animation text-shadow-drop-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+
+
+
+  
